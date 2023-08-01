@@ -29,11 +29,10 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-        Integer result = 0;
+        Integer result;
         String inputLine = new Scanner(System.in).nextLine();
 
         String[] numbersString = inputLine.split(" ");
-        int[] numbers = new int[numbersString.length];
 
         int a = Integer.parseInt(numbersString[0]);
         int b = Integer.parseInt(numbersString[1]);
