@@ -1,17 +1,18 @@
 package programming;
 
-import java.util.Scanner;
-import java.util.regex.Pattern;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-
 /**
  * принимать выражения 1+(2*2-3).
  * заканчитваются точкой
  * повторяющиеся символы -+.* вызывают WRONG
  *
  */
+
+import java.util.Scanner;
+import java.util.regex.Pattern;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
 public class Task5 {
     public static void main(String[] args) {
         String inputLine = new Scanner(System.in).nextLine();
